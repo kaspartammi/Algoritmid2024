@@ -1,0 +1,11 @@
+Raamatute riiuli korraldamise raamatu kõrguse põhjal.
+
+Eesmärk: suuruse järgi kasvavalt, vasakult paremale.
+
+1. Läbi kogu riiul ükshaaval vasakult paremale, võrreldes raamatut ja temast järgnevat.
+	1.2. Kui vaadeldav raamat on kõrgem, kui temast paremal asuv raamat, vaheta nende kohad ja mine ühe võrra edasi (1 paremale)
+	1.3. Kui vaadeldav raamat on madalam, kui temast paremal asuv raamat, ei vaheta nende asukohti vaid liigud järgmise raamatu juurde (1 paremale)
+Läbides riiul ühe korra, on kõige kõrgem raamat kõige paremal.
+2. Korrata samme 1. 1.2 ja 1.3 kuni ühtegi raamatu ei pea enam ümber tõstma
+3. Riiul on nüüd sorteeritud
+

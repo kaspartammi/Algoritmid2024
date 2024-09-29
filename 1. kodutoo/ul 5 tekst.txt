@@ -1,0 +1,10 @@
+Puude ja graafide võrdlus.
+
+Graaf on andmestruktuur, mis koosneb tippudest ja servadest, võib olla nii suunatud kui suunamata. 
+Suunatud graafis saab liikuda ühest tipust teise kasutades suunatud serva, ja liikudes vaid õiges suunas.
+Graafis võib esineda tsükleid.
+
+Puudes ei või esineda tsükleid, puus peab olema juur, millest kõik algab ning puu sõlmede asukoht on määratud hierarhia baasil.
+
+Graaf mis pole puu: kui kujutada linnad graafil tippudena ja nede vahelised teed servadena, ei ole tegu puuga, sest puudub juur ning graaf pole atsükliline.
+Graaf mis pole puu: peer-to-peer võrk, kuis iga kasutaja on küll sõlm, kuid ühendustest saab moodustuda tsükkel, mis ei ole lubatud puu puhul
