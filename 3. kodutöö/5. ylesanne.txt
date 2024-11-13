@@ -1,0 +1,6 @@
+5.  Otsingualgoritmide praktiline rakendamine
+
+8. Sõna otsimine sõnaraamatust.
+
+Kasutan kahendotsingut, leides esmalt õige esimese tähe ja rakendan siis kahendotsingut selle tähega algavate sõnade listile.
+Optimeerimisena aitab kaasa see, kui kõigepealt leida õige algustäht ja otsida vaid õige algustähega algavate sõnade seast.

@@ -1,0 +1,40 @@
+Ülesanne 3: Jump Search.
+
+1. Algoritm
+
+	1. arvuta hüppe suurus (√n)
+	2. hüppa loendis edasi ühe hüppe võrra
+	3. kontrolli, kas elemnt, milleni hüpati on otsitavast suurem/võrdne
+	4. kui on suurem siis otsi eelnevalt ülehüpatud blokk läbi lineaarotsinguga
+	5. kui on väiksem siis korrata ettappe 2.-5.
+	6. kui elementi pole loendis, siis otsing lõppeb.
+
+pseudokood:
+
+loend = loend
+otsitav = otsitav
+hüpe = √(loendi pikkus)
+
+loop_läbi_loendi(loend, otsitav, hüpe):
+	if loend[hüpe] >= otsitav:
+		lineaarotsing(alamloend_millest_ülehüpati):
+			if true:
+				return elemendi järjekorra nr
+			if false:
+				ei leidu elementi selles loendis
+
+
+	if  loend[hüpe] < otsitav:
+		loop_läbi_loendi((loend - ülehüpatudosa), otsitav, hüpe)
+
+
+
+2. Komplekssus
+
+Jump searchi ajaline keerukus on O(√n) mis on parem kui lineaarotsingul kuid mitte nii hea kui kahendotsing.
+
+
+
+3. Tsenaarium
+
+Jump search on effektiivsem, kui kahendotsing juhtudel, kui otsitav element on järjendi täiseti alguses.

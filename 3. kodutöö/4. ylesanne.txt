@@ -1,0 +1,52 @@
+Kolmikotsing
+
+1. Algoritm
+
+Sarnane kahendotsingule, kasutab sorteeritud andmehulka. 
+Jagab selle kolmeks osaks, võrdleb otsitavat väärtust nende kaheväärtusega mis on jagamis punktides.
+Tuvasades, mis osas otsitav asub, vähendab otsingu ruumi kordab jagamist ja kontrollomist
+
+Pseudokood:
+
+järjend = järjend
+otsitav = otsitav
+
+vasak = järjendi_algus
+parem = järjendi_lõpp
+
+punkt1 = vasak+(parem-vasak)/3
+punkt2 = parem-(parem-vasak)/3
+
+esimene = [vasak; punt1]
+teine = [punkt1; punkt2]
+kolmas = [punkt2; parem]
+
+if otsitav = punt1:
+	return indeks
+
+elif otsitav = punkt2:
+	return index
+
+if otsitav < punkt1:
+	järjend = esimene
+	korda otsimist esimeses
+
+elif punkt1 < otsitav < punkt2:
+	järjend = teine
+	korda otsimist teises
+
+elif otsitav > punkt2
+	järjend = kolmas
+	korda otsimist kolmandas
+
+
+
+2. Ternary Search'i VS Binary Search
+
+Kahendotisng on kiirem(halvim O(log n) vs kolmikotsing halvim O(log3 n).
+
+
+3. Kas Binary Search on üldiselt tõhusam?
+
+Kahendotsing on üldiselt tõhusam, kui kolmikotsing, sest peab tegema vähem võrdlusi ja iteratsioone. 
+Kolmikotsing on üldiselt kasulikum funktsioonide miinumi või maksimumi otsimisel.

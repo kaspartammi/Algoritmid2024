@@ -1,0 +1,9 @@
+2. Aegkomplekssus.
+
+Kahend otsingu halvim kiirus on O(log n), mis on parem kui lineaarotsingul. Parimal juhul võivad nad mõlemad oma otsitava leida esimese asjana, kuid keskmiselt on kahendotsing kiirem.
+
+
+3. Kus on kahendotsing kasulikum?
+
+Sorteeritud andmemahtude juures, mida suurem andmemaht, seda parem valik on kahendotsing lineaarotsingu asemel.
+Selle põhjuseks on see, et kahendotsing jagab massiivi kaheks ja seega ei pea otsima läbi poolt massiivi, mis kõrvale jäetakse.  
