@@ -1,0 +1,14 @@
+2. Algoritmi aja- ja ruumikomplekssus
+
+Selle lineaarotsingu ajaline keerukus on O(n), sest ta käib loendi n ühe korra läbi.
+
+Ruumikomplekssus on O(1), sest ei vaja tööks lisaruumi.
+
+
+
+3. Linear Search algoritm reaalmaailmas.
+Mõistlik kasutada väiksemate andmemahtude juures, samuti sortimata listidega.
+
+Pole mõistlik kasutada suurte andmemahtude juures, sest ajaline keerukus on O(n).
+
+Reaalmaailmas saab seda kasutada, näiteks otsides raamatut riiulist.
