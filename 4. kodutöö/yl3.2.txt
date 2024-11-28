@@ -1,0 +1,39 @@
+2. Võrdle separate chaningu efektiivsust open addressing meetodiga ajalise ja
+ruumilise komplekssuse mões.
+3. Aruta separate chaning kasutamise plusse ja miinuseid räsitabelites.
+
+
+2. Ajaline keerukus
+Separeta chaining:
+	Otsimine: kesmine: O(1+a) / halvim O(n)
+	Lisamine: keskmine O(1) / halvim O(1+a)
+	Kustutamine: kesmine: O(1+a) / halvim O(n)
+
+Open addressing:
+	Otsimine: kesmine: O(1/(1-a)) / halvim O(n)
+	Lisamine: keskmine O(1/(1-a) / halvim O(n)
+	Kustutamine: kesmine: O(1/(1-a)) / halvim O(n)
+
+
+Ruumikeerukus:
+Separate Chaining vajab lisaruumi ehk O(n)
+Open addressing ei vaja lisaruumi
+
+
+3. Separate chaining plussid ja miinused:
+Plussid:
+	lubab piiramatut hulka elemente
+	Lihtne rakendada
+
+Miinused:
+	nõuab lisamälu viidete jaoks
+	kui palju elemente samas pesa, siis keerukus kasvab
+
+Open Addressing plussid ja miinused:
+Plussid:
+	Ei vaja lisamälu
+	Ei nõua keerulisi lisandstruktuure
+
+Miinused:
+	Piiratud räsitabeli suurusega
+	Räsitabeli täitudes jõudlus halveneb

@@ -1,0 +1,19 @@
+1. Rakenda topelt räsimise algoritm ja aruta, kuidas see aitab ületada ühekordse
+räsimise piiranguid.
+2. Analüüsi oma rakenduse aja- ja ruumikomplekssust.
+3. Paku välja stsenaarium, kus topelt räsimine oleks eriti efektiivne
+
+
+1. Jaotab võtmed ühtlasemalt, vältides clusterimist ja topelt räsimine ei vaja lisamälu.
+
+
+2.Ajakompleksus 
+Lisamine	Keskmine O(1) / halvim O(n)
+Otsimine	Keskmine O(1) / halvim O(n)
+Kustutamine	Keskmine O(1) / halvim O(n)
+
+Ruumikompleksus 
+O(n)
+
+
+3. Topelt räsimine on efektiivne, kui mäluressursid on piiratud, Tabelisse saab salvestada ainult kindla suurusega massiiv, ja lisastruktuure pole võimalik kasutada.

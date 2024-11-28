@@ -1,0 +1,10 @@
+1. Kirjuta selgitus räsimise (hashing) kontseptsioonist - põhiidee ja eesmärk.
+2. Kirjelda hea räsifunktsiooni omadusi ja selgita, miks need on olulised.
+3. Selgita kokkupõrgete lahendamise tehnikaid, eriti eraldi aheldamist (separate
+chaining) ja avatud aadressimist (open addressing).
+
+
+1.	Räsimine on ühesuunaline funktsioon, mis muudab suvalise pikkusega andmed fikseeritud suurusega väärtuseks.
+2.	Annab sama sisendi puhul sama väljundi ja erinevate sisendite puhul erineva väljundi. See on oluline, sest räsimist kasutades eeldatakse, et nii toimib. 
+3.	Kokkupõrge on see, kui kaks erinevat sisendit genereerivad sama räsi. Seda saab lahendada kasutades erinevaid tehnikaid. Näiteks eraldi aheldamist kasutades pannakse iga räsi oma aadressil asuvasse linked listi. Kui genereeritakse sama räsi, lisatakse see loodud linked listi. 
+Teine tehnika, avatud aadresserimine, kus andmed lisatkse räsitabelisse ja jälgitakse, et lisatud kohal pole räsi ees.
