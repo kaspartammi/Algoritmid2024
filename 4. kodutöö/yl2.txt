@@ -1,0 +1,8 @@
+2. Analüüsi oma rakenduse aja- ja ruumikomplekssust.
+3. Aruta, kuidas indeksi kaardistamist massiividega saab rakendada reaalses
+Maailmas.
+
+2.Ajakeerukus. Sisetamine  O(1); Otsimine O(1)
+Ruumikeerukus. O(n)
+3. Väikeettevõtted, mis haldavad tooteid, saavad kasutada triviaalset räsimist, et kontrollida, kas teatud toode on laos olemas. Kui tooted on nummerdatud, siis iga toote ID võib olla massiivi indeks, kus väärtus on tõene, kui toode on laos, ja vale, kui seda ei ole.
+

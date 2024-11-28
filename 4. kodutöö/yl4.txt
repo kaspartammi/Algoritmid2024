@@ -1,0 +1,21 @@
+1.	Kirjuta lühike ülevaade avatud aadressimise meetodist kokkupõrgete
+lahendamisel räsimises.
+2.	 Võrdle (teooria) kolme tehnikat: lineaarne otsing (linear probing), ruuduline
+otsing (quadratic probing) ja topelträsimine (double hashing).
+3.	 Aruta, millistes olukordades iga tehnika oleks kõige efektiivsem.
+
+1.	Avatud aadressimise meetod hoiab  räsisid räsitabelis. Räsi lisamisel tabelisse, otsitakse esmalt vaba koht ja siis lisatakse see sinna. 
+
+2.	Lineaarne otsing – alustab aadressist, kuhu räsi peaks minema, kui sellel aadressil juba asub räsi, liigutakse üks samm edasi, kuni leitakse tühi koht kuhu räsi panna.
+
+Ruuduline otsing - alustab aadressist, kuhu räsi peaks minema, kui sellel aadressil juba asub räsi, liigutakse edasi, võttes sammu, mille võrra edasi minna, ruutu, kuni leitakse tühi koht kuhu räsi panna.
+
+Topelträsimine -  alustab aadressist, kuhu räsi peaks minema, kui sellel aadressil juba asub räsi, liigutakse edasi. Edasi liikudes on sammu pikkuseks räsi, mis saadakse asialgse aadressile liites sammu ja saadud tulemusest uus räsi genereerides. 
+
+3.	Lineaar otsingut on lihtsam implementeerida, ei vaja lisa arvutusi, selle miinuseks on see, et andmed hakkavad cluster-ima. 
+Ruuduline otsing vajab lisaarvutust, et kohta leida kuid vähem probleeme cluster-imisega. 
+Topelträsimine on kõige arvutusjõudluse nõudlikum neist kolmest, kuid kõige vähem probleeme cluster-imisega.
+Mida suuremat räsitabelit luua, seda mõistlikum on kasutada topelträsimist. 
+
+
+
