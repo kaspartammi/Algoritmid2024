@@ -1,0 +1,14 @@
+Ülesanne 3: Binaarse Otsingupuu (Binary Search Tree, BST)
+
+1 Kirjelda binaarse otsingupuu (BST) andmestruktuuri ja selle põhielemente.
+2 Arutle, kuidas tasakaalustamata puud mõjutavad BST tõhusust ja kuidas seda saab teoreetiliselt optimeerida
+
+1 BST: Vasaku alampuu väärtused on väiksemad kui juures
+	Parema alampuu väärtused on suuremad kui juures.
+Ei tohi olla korduvaid väärtusi
+Põhielemendid 	Sõlm - väärtus, vasak ja parem laps
+		Juur - alguspunkt
+		Leht - Sõlm, millel pole lapsi 
+
+2. Taskaalustamata BST muutub ühesuunaliseks jadaks, kui sinna vaid väärtusi lisada ilma tasakaalustamata. See omakorda muudab BST ebaeffektiivseks. 
+Seda saab parandada BST-d taskaalustades, andes lisatingimusi andmete sistades.

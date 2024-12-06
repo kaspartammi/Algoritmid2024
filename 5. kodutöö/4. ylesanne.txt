@@ -1,0 +1,17 @@
+Ülesanne 4: Punase-Musta Puu (Red-Black Tree) Teoreetiline
+Ülevaade
+1 Kirjelda punase-musta puu andmestruktuuri ja selle peamisi omadusi.
+2 Võrdle teoreetiliselt punase-musta puu ja binaarse otsingupuu tõhusust.
+3 Aruta, kuidas punase-musta puu tasakaalustamine ja värvireeglid aitavad kaasa andmestruktuuri tõhususele
+
+1. Punase-musta puu variant BST-st, mis on kaalutud ja eraldi värvireeglitega, et seda hoida tasakaalus.
+Omadused: igal sõlmel on värv. Juursõlm on must. Punase sõlme lapsed on alati mustad. Iga tee juurest leheni sisaldab sama arvu Musti sõlmi.
+Puu on taskaalus.
+
+2. Otsimine - BST O(n); Punase-Musta Puu O(log n)
+Lisamine - BST O(n); Punase-Musta Puu O(log n)
+Kustutamine - BST O(n); Punase-Musta Puu O(log n)
+
+
+3. Mustade sõlmede arv iga tee juurest leheni on sama. See omadus piirab puu kõrguse kasvu.
+Punasel sõlmel ei ole punaseid lapsi. See vähendab ohtu, et üks haru muutub liiga pikaks.
