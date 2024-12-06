@@ -1,0 +1,16 @@
+Ülesanne 5: AVL Puu vs. Punase-Musta Puu Teoreetiline Võrdlus
+1. Kirjelda AVL puu andmestruktuuri ja selle peamisi omadusi.
+2. Võrdle teoreetiliselt AVL puu ja punase-musta puu tõhusust.
+3. Analüüsi, millistes rakendustes oleks üks struktuur teisele eelistatav ja põhjenda oma valikuid
+
+1. AVL puu on BST versioon, milles tagatakse, et puu kõrgus jääb minimaalseks. Seda tagatakse tasakaalustamisega, mille puhul jälgitakse, et (Vasaku alampuu kõrgus−Parema alampuu kõrgus) <= 1. Kui tasakaalutegur muutub, tasakaalustakse uuesti
+
+2. Tasakaalustatus AVL - taskaalutegur max 1; Punase-musta puu - musta kõrguse reegel
+Lisamine AVL - O(log n) Punase-musta puu - O(log n)
+Kustutamine AVL - O(log n) Punase-musta puu - O(log n)
+Otsimine AVL - O(log n) Punase-musta puu - O(log n)
+
+
+3. AVL puu rakendused- Sobib hästi andmestruktuurides, kus sooritatkse palju otsinguid. Põhjuseks kiire otsingu kiirus. Kui andmed ei muutu sageli, tagab AVL stabiilse struktuuri.
+
+Punase-musta puu rakendused. Sobib hästi dünaamilistes süsteemides, kus andmeid lisatakse ja kustutatakse tihti. Kasutatakse, kui lisamine ja kustutamine on sama olulised kui otsimine.

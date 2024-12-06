@@ -1,0 +1,21 @@
+Ülesanne 2: Kuhja (Heap) Struktuuri Teoreetiline Analüüs
+1 Kirjelda min-kuhja ja max-kuhja struktuuride teoreetilisi omadusi.
+2 Analüüsi nende struktuuride aja- ja ruumikomplekssust.
+3 Aruta, kuidas kuhja struktuurid sobivad andmete sorteerimiseks ja prioriteetjärjekordade haldamiseks.
+
+1. Min kuhi: 	väikseim väärtus tipus
+		iga juur <= laps
+		taskaalustatud vaskult paremale
+
+Max kuhi: 	suurim väärtus tipus
+		iga juur >= laps	
+		tasakaalustatud vasakult paremale
+
+2.Ajakompleksus: lisamine - O(log n)
+		eemaldamine O(log n)
+		tipu leidmine o(1)
+
+Ruumikompleksus: O(n)
+
+
+3. Prioriteedi järjekord - max kuhjas kõige olulisem element alati tipus, saab kiirelt leida. Halb kui vaja otsida kuhjast. Elemendi lisamine ja eemaldamine järgib vastavalt kuhja omadusi.
